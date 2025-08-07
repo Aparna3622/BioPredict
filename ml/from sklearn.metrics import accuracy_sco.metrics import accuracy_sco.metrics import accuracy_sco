@@ -1,0 +1,13 @@
+from sklearn.metrics import accuracy_score, classification_report
+
+results = {}
+for name, model in models.items():
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    results[name] = acc
+    print(f'\n{name} Accuracy: {acc:.4f}')
+    print(classification_report(y_test, y_pred, digits=4))
+
+best_model = max(results, key=results.get)
+print(f'\nBest model: {best_model} with accuracy {results[best_model]:.4f}')
