@@ -58,4 +58,4 @@ Perfect for creating:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/bio-predict.git
+git clone https://github.com/Aparna3622/BioPredict
