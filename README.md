@@ -51,7 +51,6 @@ Perfect for creating:
 
 > Replace the image link above with your actual project screenshot.
 
----
 
 ## ⚙️ Installation
 
